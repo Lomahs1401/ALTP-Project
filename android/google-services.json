@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "146282075433",
+    "project_id": "altp-62773",
+    "storage_bucket": "altp-62773.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146282075433:android:a205a78d7b93a345631338",
+        "android_client_info": {
+          "package_name": "com.altp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146282075433-rnvl2r7kpslntp8o1mq00ea8qf3d6fur.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm5m4sr6UoFSU3qypBligug779g7-Shp0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146282075433-rnvl2r7kpslntp8o1mq00ea8qf3d6fur.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
