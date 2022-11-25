@@ -1,0 +1,76 @@
+import React from 'react';
+ import {
+   SafeAreaView,
+   ScrollView,
+   StatusBar,
+   StyleSheet,
+   Text,
+   useColorScheme,
+   View,
+   Image,
+   Button,
+   TouchableOpacity,
+ } from 'react-native';
+ 
+ import {
+   Colors,
+   DebugInstructions,
+   Header,
+   LearnMoreLinks,
+   ReloadInstructions,
+ } from 'react-native/Libraries/NewAppScreen';
+import GameUI from './GameUI';
+ export default function MainUI(){
+    return(
+        <SafeAreaView style={styles.MainMenu}>
+       <Image source={require('../Img/backgnd.png')} style={styles.MainIMG} />
+       <TouchableOpacity>
+         <View style={styles.Button}>
+           <Text style={styles.ButtonText}>Chơi ngay</Text>
+         </View>
+       </TouchableOpacity>
+       <TouchableOpacity>
+         <View style={styles.Button}>
+           <Text style={styles.ButtonText}>Thống kê</Text>
+         </View>
+       </TouchableOpacity>
+       <TouchableOpacity>
+         <View style={styles.Button}>
+           <Text style={styles.ButtonText}>Thoát trò chơi</Text>
+         </View>
+       </TouchableOpacity>
+     </SafeAreaView>
+    
+    );
+}
+
+const styles = StyleSheet.create({
+    MainIMG: {
+      alignSelf: 'center',
+      fontSize: 18,
+      fontWeight: '400',
+      marginBottom: 40,
+    },
+    MainMenu: {
+      backgroundColor: 'slateblue',
+      height: 800,
+    },
+    Button: {
+      alignContent: 'center',
+      marginTop: 20,
+      marginLeft: 50,
+      paddingTop: 5,
+      alignItems: 'center',
+      backgroundColor: 'midnightblue',
+      height: 45,
+      width: 300,
+      borderRadius: 25,
+      borderWidth: 2,
+      borderColor: 'white',
+    },
+    ButtonText: {
+      fontSize: 22,
+      fontWeight: '500',
+      color: 'white',
+    },
+  });
